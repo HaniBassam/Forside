@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    background: url(../img/IMG_5995.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+
+.logo {
+    height: 400px; /* Adjust the logo height as needed */
+    position: absolute;
+    top: -140px; /* Adjust the top value to position it at the desired vertical position */
+}
+
+
+ul {
+    float: right;
+    list-style: none;
+    display: flex;
+    margin-right: 30px; /* Add some margin between the logo and links */
+    font-size: 40px;
+}
+
+ul li {
+    margin-right: 60px; /* Adjust the spacing between links */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+}
+
+
+#bannerBook {
+    background: linear-gradient(rgba(92, 65, 65, 0.447), #D2B48C), url(/img/woodpart2.png);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+}
+
+
+/* Style for the search container */
+.search-container {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Style for the search bar input */
+#search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 30px
+}
+
+/* Style for the search button */
+#search-button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+
+li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.partner{
+position: absolute;
+left: 65%;
+top: 80%;
+width: 20%;
+}
+
+
+.body{
+    position: absolute;
+    width: 48%;
+    left: 5%;
+    top: 70%;
+    color:#fff
+}
+
+.body h2{
+    font-size: 70px;
+    margin-bottom: 10%;
+}
+
+.body p{
+    font-size: 40px;
+}
+
+.månedensspil{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    font-size: 50px;
+    color: #fff;
+}
+
+
